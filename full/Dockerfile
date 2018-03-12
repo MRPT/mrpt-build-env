@@ -1,10 +1,10 @@
 FROM ubuntu:xenial
 
 RUN apt-get update && \
-	apt install -y software-properties-common && \
+	apt install -y software-properties-common wget && \
 	add-apt-repository -y ppa:jolting/backport-mrpt && \
 	add-apt-repository -y ppa:ubuntu-toolchain-r/test && \
-	wget -O - http://apt.llvm.org/llvm-snapshot.gpg.key|sudo apt-key add - \
+	wget -O - http://apt.llvm.org/llvm-snapshot.gpg.key | apt-key add - \
 	apt-add-repository "deb http://apt.llvm.org/xenial/ llvm-toolchain-xenial-6.0 main" \
 	apt update && \
 	apt-get install -y build-essential clang-6.0 gcc-7 g++-7 clang pkg-config \
