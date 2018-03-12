@@ -4,8 +4,8 @@ RUN apt-get update && \
 	apt install -y software-properties-common wget && \
 	add-apt-repository -y ppa:jolting/backport-mrpt && \
 	add-apt-repository -y ppa:ubuntu-toolchain-r/test && \
-	wget -O - http://apt.llvm.org/llvm-snapshot.gpg.key | apt-key add - \
-	add-apt-repository "deb http://apt.llvm.org/xenial/ llvm-toolchain-xenial-6.0 main" \
+	wget -O - http://apt.llvm.org/llvm-snapshot.gpg.key | apt-key add - && \
+	add-apt-repository "deb http://apt.llvm.org/xenial/ llvm-toolchain-xenial-6.0 main" && \
 	apt update && \
 	apt-get install -y build-essential clang-6.0 gcc-7 g++-7 pkg-config \
 		cmake python-pip git-core ccache libftdi-dev \
