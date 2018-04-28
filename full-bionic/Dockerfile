@@ -10,4 +10,5 @@ RUN \
 		libboost-python-dev libpython-dev python-numpy \
 		libwxgtk3.0-dev freeglut3-dev libavformat-dev \
 		libswscale-dev libassimp-dev qtbase5-dev \
-		libqt5opengl5-dev libpcl-dev curl rsync liboctomap-dev lib3ds-dev
+		libqt5opengl5-dev libpcl-dev curl rsync liboctomap-dev \
+		lib3ds-dev libpcap-dev
