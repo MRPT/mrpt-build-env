@@ -7,5 +7,5 @@ RUN apt-get update && \
 		libdc1394-22-dev libjpeg-dev libopencv-dev \
 		libgtest-dev libeigen3-dev libsuitesparse-dev \
 		libopenni2-dev libudev-dev libboost-python-dev \
-		libpython-dev python-numpy libpcl-dev curl
+		libpython-dev python-numpy libpcl-dev curl rsync
 
