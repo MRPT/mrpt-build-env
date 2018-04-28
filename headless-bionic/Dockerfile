@@ -1,5 +1,5 @@
 FROM ubuntu:bionic
-
+ARG DEBIAN_FRONTEND=noninteractive
 RUN apt-get update && \
 	apt-get install -y build-essential gcc g++ pkg-config \
 		cmake python-pip git-core ccache \

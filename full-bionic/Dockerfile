@@ -1,5 +1,5 @@
 FROM ubuntu:bionic
-
+ARG DEBIAN_FRONTEND=noninteractive
 RUN \
 	apt update && \
 	apt-get install -y build-essential clang-6.0 gcc g++ pkg-config \
