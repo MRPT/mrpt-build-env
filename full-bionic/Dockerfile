@@ -12,4 +12,6 @@ RUN \
 		libswscale-dev libassimp-dev qtbase5-dev \
 		libqt5opengl5-dev libpcl-dev curl rsync liboctomap-dev \
 		lib3ds-dev libpcap-dev libfreenect-dev libyaml-cpp-dev \
-		liblas-dev liblas-c-dev
+		liblas-dev liblas-c-dev \
+		libjsoncpp-dev
+		
