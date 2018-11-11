@@ -13,5 +13,5 @@ RUN \
 		libqt5opengl5-dev libpcl-dev curl rsync liboctomap-dev \
 		lib3ds-dev libpcap-dev libfreenect-dev libyaml-cpp-dev \
 		liblas-dev liblas-c-dev \
-		libjsoncpp-dev
-		
+		libjsoncpp-dev \
+		clang-format
