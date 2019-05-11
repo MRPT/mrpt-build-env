@@ -14,4 +14,5 @@ RUN \
 		lib3ds-dev libpcap-dev libfreenect-dev libyaml-cpp-dev \
 		liblas-dev liblas-c-dev \
 		libjsoncpp-dev \
+		libxrandr-dev \
 		clang-format
