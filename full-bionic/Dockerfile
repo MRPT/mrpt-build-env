@@ -15,4 +15,6 @@ RUN \
 		liblas-dev liblas-c-dev \
 		libjsoncpp-dev \
 		libxrandr-dev \
+		libroscpp-dev librosbag-dev libcv-bridge-dev \
+		libsensor-msgs-dev libtf2-msgs-dev libtf2-dev \
 		clang-format
