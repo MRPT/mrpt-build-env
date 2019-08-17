@@ -16,6 +16,6 @@ RUN \
 		libjsoncpp-dev \
 		libxrandr-dev \
 		libroscpp-dev librosbag-dev libstd-srvs-dev libcv-bridge-dev \
-		libsensor-msgs-dev libtf2-msgs-dev libtf2-dev \
+		libsensor-msgs-dev libtf2-msgs-dev libtf2-dev libnav-msgs-dev \
 		libgeometry-msgs-dev libstereo-msgs-dev libpcl-conversions-dev \
 		clang-format
