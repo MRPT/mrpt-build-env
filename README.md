@@ -1,1 +1,1 @@
-Three different docker containers for the three build configurations.
+Docker containers for each MRPT build configurations in CI automated builds.

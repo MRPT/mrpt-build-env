@@ -14,6 +14,7 @@ RUN apt-get update && \
 		libsuitesparse-dev libopenni2-dev libudev-dev \
 		libboost-python-dev libpython3-dev python3-numpy \
 		libwxgtk3.0-dev freeglut3-dev libavformat-dev \
+		libjsoncpp-dev libtinyxml2-dev \
 		libswscale-dev libassimp-dev qtbase5-dev \
-		libqt5opengl5-dev libpcl-dev curl \
+		libqt5opengl5-dev curl \
 		libxrandr-dev
