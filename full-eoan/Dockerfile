@@ -1,8 +1,8 @@
-FROM ubuntu:bionic
+FROM ubuntu:eoan
 ARG DEBIAN_FRONTEND=noninteractive
 RUN \
 	apt update && \
-	apt-get install -y build-essential clang-6.0 gcc g++ pkg-config \
+	apt-get install -y build-essential clang-9 gcc g++ pkg-config \
 		cmake python3-pip git-core ccache libftdi-dev \
 		zlib1g-dev libusb-1.0-0-dev libdc1394-22-dev \
 		libjpeg-dev libopencv-dev libgtest-dev libeigen3-dev \

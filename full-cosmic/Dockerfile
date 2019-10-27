@@ -8,7 +8,7 @@ RUN \
 		libjpeg-dev libopencv-dev libgtest-dev libeigen3-dev \
 		libsuitesparse-dev libopenni2-dev libudev-dev \
 		libboost-python-dev libpython3-dev python3-numpy \
-		libwxgtk3.0-dev freeglut3-dev libavformat-dev \
+		libwxgtk3.0-gtk3-dev freeglut3-dev libavformat-dev \
 		libswscale-dev libassimp-dev qtbase5-dev \
 		libqt5opengl5-dev curl rsync liboctomap-dev \
 		lib3ds-dev libpcap-dev libfreenect-dev libyaml-cpp-dev \
