@@ -17,4 +17,5 @@ RUN apt-get update && \
 		libjsoncpp-dev libtinyxml2-dev \
 		libswscale-dev libassimp-dev qtbase5-dev \
 		libqt5opengl5-dev curl \
+		libglfw3-dev \
 		libxrandr-dev

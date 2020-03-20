@@ -17,4 +17,5 @@ RUN \
 		libxrandr-dev \
 		libroscpp-dev librosbag-dev libcv-bridge-dev \
 		libsensor-msgs-dev libtf2-msgs-dev libtf2-dev \
+		libglfw3-dev \
 		clang-format
