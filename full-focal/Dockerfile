@@ -19,4 +19,5 @@ RUN \
 		libgeometry-msgs-dev libstereo-msgs-dev \
 		libglfw3-dev \
 		libsimpleini-dev \
+		libicu-dev \
 		clang-format
