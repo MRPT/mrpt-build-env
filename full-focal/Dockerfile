@@ -21,3 +21,5 @@ RUN \
 		libsimpleini-dev \
 		libicu-dev \
 		clang-format
+RUN \
+	apt-get install -y libxxf86vm-dev
