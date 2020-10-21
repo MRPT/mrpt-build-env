@@ -22,4 +22,8 @@ RUN \
 		libicu-dev \
 		clang-format
 RUN \
-	apt-get install -y libxxf86vm-dev
+	apt-get install -y \
+	librosbag-storage-dev \
+	libglu1-mesa-dev \
+	libglfw3-dev \
+	libxxf86vm-dev
