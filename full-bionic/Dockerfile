@@ -20,3 +20,7 @@ RUN \
 		libgeometry-msgs-dev libstereo-msgs-dev \
 		libglfw3-dev \
 		clang-format
+
+RUN \
+	apt-get install -y \
+		binutils-dev

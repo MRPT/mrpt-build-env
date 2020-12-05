@@ -27,3 +27,7 @@ RUN \
 	libglu1-mesa-dev \
 	libglfw3-dev \
 	libxxf86vm-dev
+
+RUN \
+	apt-get install -y \
+		binutils-dev
