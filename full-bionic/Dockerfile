@@ -23,4 +23,4 @@ RUN \
 
 RUN \
 	apt-get install -y \
-		binutils-dev
+		binutils-dev libiberty-dev
