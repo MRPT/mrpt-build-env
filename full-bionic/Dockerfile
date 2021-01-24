@@ -19,7 +19,7 @@ RUN \
 		libsensor-msgs-dev libtf2-msgs-dev libtf2-dev libnav-msgs-dev \
 		libgeometry-msgs-dev libstereo-msgs-dev \
 		libglfw3-dev \
-		clang-format
+		clang-format-10
 
 RUN \
 	apt-get install -y \

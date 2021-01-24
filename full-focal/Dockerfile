@@ -20,7 +20,7 @@ RUN \
 		libglfw3-dev \
 		libsimpleini-dev \
 		libicu-dev \
-		clang-format
+		clang-format-10
 RUN \
 	apt-get install -y \
 	librosbag-storage-dev \
